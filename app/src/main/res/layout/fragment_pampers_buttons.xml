@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:gravity="center_vertical|center_horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pampersSmallButtonTitle"
+        android:id="@+id/pampersSmallButton"
+        android:layout_toStartOf="@+id/pampersSmallLargeButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pampersLargeButtonTitle"
+        android:id="@+id/pampersLargeButton"
+        android:layout_toEndOf="@+id/pampersSmallButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pampersSmallLargeButtonTitle"
+        android:id="@+id/pampersSmallLargeButton"
+        android:layout_toEndOf="@+id/pampersLargeButton" />
+
+</LinearLayout>
